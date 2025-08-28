@@ -111,6 +111,7 @@ Syntax:
     - Keys must be unique and immutable (string, number, tuple), while values can be of any type.
 
 Syntax:
+
         my_dict = {
             "name": "Raj",
             "age": 23,
