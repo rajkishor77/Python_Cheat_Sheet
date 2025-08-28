@@ -5,9 +5,13 @@
 ---
 🔹 1. What is a List?
     - A list is an ordered, mutable (changeable), iterable collection in Python.
+  
     - It can hold different data types (integer, float, string, boolean, object, even another list).
+  
     - Lists are defined using square brackets [ ].
+  
 Example:
+
             my_list = [1, 2.5, "apple", True, [10, 20]]
 ---
 
@@ -35,12 +39,19 @@ Example:
 ## 📘 Set in Python – Detailed Explanation
 ---
 🔹 Definition
+
     - A Set is an unordered, unindexed, mutable collection of unique elements.
+  
     - Duplicates are automatically removed.
+  
     - Mutable: Elements can be added or removed (but set itself can’t contain mutable objects like lists/dictionaries).
+  
     - Supports mathematical operations like union, intersection, difference.
+  
 Syntax:
+
         my_set = {1, 2, 3, 4}
+
         empty_set = set()   # correct way ({} creates a dictionary)
 ---
 ```
@@ -66,9 +77,13 @@ Syntax:
 ## 📘 Tuple in Python
 ---
 🔹 1. Definition
+
     - A Tuple is an ordered, immutable collection of elements.
+  
     - Once created, you cannot add, remove, or modify its elements.
+
     - Tuples are faster than lists and are often used for fixed data.
+  
 ---
 ```
 | Method                 | Description               | Example                       |
@@ -87,9 +102,13 @@ Syntax:
 ## 📘 Dictionary in Python (dict)
 ---
 🔹 Definition
+
     - A Dictionary is an unordered, mutable, and indexed collection in Python.
+
     - It stores data in the form of key–value pairs.
+
     - Keys must be unique and immutable (string, number, tuple), while values can be of any type.
+
 Syntax:
         my_dict = {
             "name": "Raj",
@@ -118,9 +137,13 @@ Syntax:
 ## 📝 Python String (str)
 ---
 🔹 Definition:
+
     - A string is a sequence of characters enclosed in single quotes ('), double quotes ("), or triple quotes (''' or """).
+  
     - Strings are immutable → once created, they cannot be changed.
+
     - Example:
+  
                 s1 = 'Hello'
                 s2 = "Python"
                 s3 = '''This is
