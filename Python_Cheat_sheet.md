@@ -4,6 +4,7 @@
 ## 📘 Python List 
 ---
 🔹 1. What is a List?
+
     - A list is an ordered, mutable (changeable), iterable collection in Python.
   
     - It can hold different data types (integer, float, string, boolean, object, even another list).
