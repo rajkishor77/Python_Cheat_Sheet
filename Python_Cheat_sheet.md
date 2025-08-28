@@ -1,6 +1,6 @@
 # 🐍 Python Data Structures Cheat Sheet
 
-
+---
 ## 📘 Python List 
 🔹 1. What is a List?
     - A list is an ordered, mutable (changeable), iterable collection in Python.
@@ -8,7 +8,7 @@
     - Lists are defined using square brackets [ ].
 Example:
             my_list = [1, 2.5, "apple", True, [10, 20]]
-
+---
 
 ```
 | Method                          | Description                                  | Example                         |
@@ -32,7 +32,7 @@ Example:
 
 
 ## 📘 Set in Python – Detailed Explanation
-
+---
 🔹 Definition
     - A Set is an unordered, unindexed, mutable collection of unique elements.
     - Duplicates are automatically removed.
@@ -41,7 +41,7 @@ Example:
 Syntax:
         my_set = {1, 2, 3, 4}
         empty_set = set()   # correct way ({} creates a dictionary)
-
+---
 ```
 | Method                          | Description                            | Example                          |       |                   |
 | ------------------------------- | -------------------------------------- | -------------------------------- | ----- | ----------------- |
@@ -63,12 +63,12 @@ Syntax:
 
 
 ## 📘 Tuple in Python
-
+---
 🔹 1. Definition
     - A Tuple is an ordered, immutable collection of elements.
     - Once created, you cannot add, remove, or modify its elements.
     - Tuples are faster than lists and are often used for fixed data.
-
+---
 ```
 | Method                 | Description               | Example                       |
 | ---------------------- | ------------------------- | ----------------------------- |
@@ -84,7 +84,7 @@ Syntax:
 
 
 ## 📘 Dictionary in Python (dict)
-
+---
 🔹 Definition
     - A Dictionary is an unordered, mutable, and indexed collection in Python.
     - It stores data in the form of key–value pairs.
@@ -95,7 +95,7 @@ Syntax:
             "age": 23,
             "branch": "Electrical"
         }
-
+---
 ```
 | Method                        | Description                    | Example                                        |
 | ----------------------------- | ------------------------------ | ---------------------------------------------- |
@@ -115,6 +115,7 @@ Syntax:
 
 
 ## 📝 Python String (str)
+---
 🔹 Definition:
     - A string is a sequence of characters enclosed in single quotes ('), double quotes ("), or triple quotes (''' or """).
     - Strings are immutable → once created, they cannot be changed.
@@ -123,7 +124,7 @@ Syntax:
                 s2 = "Python"
                 s3 = '''This is
                 multiline'''
-
+---
 ```
 | Method                        | Description                      | Example                                   |
 | ----------------------------- | -------------------------------- | ----------------------------------------- |
